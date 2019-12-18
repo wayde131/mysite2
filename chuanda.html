@@ -1,0 +1,327 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+    <title>Document</title>
+    <style type="text/css">
+    *{
+        padding:0px;
+        margin:0px;
+    }
+        #container{
+            width: 100%;
+        }
+        #header{
+            height:128px;
+            background:#ec6e47;
+            background: url(images/head_bg.jpg) repeat-x;
+        }
+        #banner{
+            height:373px;
+            width:980px ;
+            background-image: url(images/banner.jpg);
+            margin:auto;
+        }
+        #jpzs{
+            height:345px;
+            width:980px ;
+            background:#ec6e47;
+            margin:auto;
+            padding-top:10px;
+            padding-bottom:5px;
+        }
+        #clqy{
+            height:25.25rem/* 404px */;
+            width:980px ;
+            /*background:red;*/
+            margin:auto;
+            margin-top:80px;
+        }
+        #footer{
+            height: 103px;
+            width: 100%;
+            margin-top:65px;
+            background:#020202;
+            color:#fff;
+            line-height:26px;
+            text-align:center;
+            padding-top:50px;
+        }
+        #header ul{
+            list-style-type:none;
+            width:980px;
+            margin:auto;
+        }
+        #header ul li{
+            float:left;
+            font-size:16px;
+        }
+        #header ul li:first-child{
+            width:178px;
+            height:118px;
+            background-image: url(images/logo.png);
+        }
+        #header ul li a{
+            height:91px;
+            width:119px;
+            text-align:center;
+            line-height:91px;
+            display:inline-block;
+            text-decoration:none;
+            color:white;
+
+        }
+
+        #header ul li a:hover{
+            background:url(images/xuanfu.png) no-repeat;
+        }
+        #sub_jpzs{
+            background:white;
+            height:322px;
+            width:910px;
+            padding-top:8px;
+            margin:auto;
+
+        }
+        dl{
+            float:left;
+        }
+        dl.left{
+            width:280px;
+            height:316px;
+            margin-left:10px;
+
+
+        }
+        dl.center{
+            width:280px;
+            height:316px;
+            margin-left:5px;
+        }
+        dl.right{
+            width:325px;
+            height:316px;
+            margin-left:5px;
+        }
+        dl.left dt.left_1{
+            background:url(images/pic01.jpg) no-repeat;
+            width:162px;
+            height:168px;
+            float:left;
+            padding-bottom:10px;
+        }
+        dl.left dd.left_2{
+            background:black;
+            width:118px;
+            height:168px;
+            float:left;
+            text-align:center;
+            color:white;
+            line-height:168px;
+        }
+        dl.left dt.left_3{
+            background:url(images/pic02.jpg) no-repeat;
+            width:162px;
+            height:137px;
+            float:left;
+        }
+        dl.left dd.left_4{
+            background:black;
+            width:118px;
+            height:137px;
+            float:left;
+            text-align:center;
+            color:white;
+            line-height:137px;
+        }
+        dl.center dt.left_1{
+            background:url(images/pic03.jpg) no-repeat;
+            width:162px;
+            height:117px;
+            float:left;
+            padding-bottom:10px;
+        }
+        dl.center dd.left_2{
+            background:black;
+            width:118px;
+            height:117px;
+            float:left;
+            text-align:center;
+            color:white;
+            line-height:117px;
+        }
+        dl.center dt.left_3{
+            background:url(images/pic04.jpg) no-repeat;
+            width:162px;
+            height:188px;
+            float:left;
+        }
+        dl.center dd.left_4{
+            background:black;
+            width:118px;
+            height:188px;
+            float:left;
+            text-align:center;
+            color:white;
+            line-height:188px;
+        }
+        dl.right dt.left_1{
+            background:url(images/pic05.jpg) no-repeat;
+            width:205px;
+            height:314px;
+            float:left;
+        }
+        dl.right dd.left_2{
+            background:black;
+            width:120px;
+            height:314px;
+            float:left;
+            text-align:center;
+            color:white;
+            line-height:314px;
+        }
+        #clqy h2{
+            width:254px;
+            height:50px;
+            font-size:20px;
+            font-weight:lighter;
+            text-align:center;
+            line-height:50px;
+            color:#fff;
+            background:#ea6c46;
+            margin-top:80px;
+
+
+        }
+        #clqy dl{
+            width:229px;
+            height:330px;
+
+            border:1px solid #dcd2ba;
+
+        }
+        #clqy dt{
+            border:1px solid #dcd2ba;
+        }
+        #clqy div{
+            height:339px;
+            width: :980px;
+
+            padding-top:15px;
+            border:1px solid #dcd2ba;
+
+        }
+        #clqy dl:nth-child(1){
+        margin-right:5px;
+        margin-left:15px;
+
+        }
+        #clqy dl:nth-child(2){
+        margin-right:5px;
+
+
+        }
+        #clqy dl:nth-child(3){
+        margin-right:5px;
+
+
+        }
+        #clqy dl:nth-child(4){
+
+        }
+        #clqy dl dd{
+        font-size:22px;
+        height:50px;
+        width:216px;
+        background:#fff;
+        line-height:50px;
+        color:#7a7a7a;
+        text-align:center;
+        }
+        #clqy dl dd a{
+        line-height:38px;
+        background:#f3734e url(images/gouwu.jpg)  no-repeat  ;
+        color: white;
+        height:38px;
+        width:200px;
+        display:block;
+        margin:auto;
+        text-decoration:none;
+        font-size:16px;
+        text-indent:59px;
+        text-align:left;
+
+        }
+
+
+    </style>
+</head>
+<body>
+<div id="container">
+    <div id="header">
+        <ul>
+            <li></li>
+            <li><a href="#">穿搭速递</a></li>
+            <li><a href="#">时尚大片</a></li>
+            <li><a href="#">星着装</a></li>
+            <li><a href="#">时尚圈</a></li>
+            <li><a href="#">时尚专栏</a></li>
+            <li><a href="#">会员/登陆</a></li>
+        </ul>
+
+    </div>
+    <div id="banner">
+
+    </div>
+    <div id="jpzs">
+        <div id="sub_jpzs">
+            <dl class="left">
+                <dt class="left_1"></dt>
+                <dd class="left_2">明星风尚</dd>
+                <dt class="left_3"></dt>
+                <dd class="left_4">时尚博主</dd>
+            </dl>
+            <dl class="center">
+                <dt class="left_1"></dt>
+                <dd class="left_2">流行搭配</dd>
+                <dt class="left_3"></dt>
+                <dd class="left_4">精选秀场</dd>
+            </dl>
+            <dl class="right">
+                <dt class="left_1"></dt>
+                <dd class="left_2">环球街拍</dd>
+            </dl>
+        </div>
+    </div>
+    <div id="clqy">
+        <h2>潮流前沿 / Tidal current</h2>
+        <div>
+            <dl>
+                <dt ><img src="images/match01.jpg" alt=""></dt>
+                <dd >潮流饰品</dd>
+                <dd ><a href="#">快速购买通道</a></dd>
+            </dl>
+            <dl>
+                <dt><img src="images/match02.jpg" alt=""></dt>
+                <dd>时尚女鞋</dd>
+                <dd><a href="#">快速购买通道</a></dd>
+            </dl>
+            <dl>
+                <dt><img src="images/match03.jpg" alt=""></dt>
+                <dd>精品包包</dd>
+                <dd><a href="#">快速购买通道</a></dd>
+            </dl>
+            <dl>
+                <dt><img src="images/match04.jpg" alt=""></dt>
+                <dd>百搭衣帽</dd>
+                <dd><a href="#">快速购买通道</a></dd>
+            </dl>
+        </div>
+    </div>
+    <div id="footer">
+        <p>Copyright © 2006-2016 CHAOLIUFUSHIcom, All rights reserved.</p>
+        <p>2001-2018，版权所有 潮流服饰 85CP备13385453</p>
+    </div>
+</div>
+</body>
+</html>
